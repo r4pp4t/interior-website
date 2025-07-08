@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Desain Interior</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/portofolio.css"
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-couch"></i>
+                ElegantSpace
+            </a>
+            
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#" class="active">Portofolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="mobile-menu">
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#" class="active">Portofolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="portfolio">
+        <div class="pt-container">
+            <h2 class="pt-section-title">Portofolio Kami</h2>
+            
+            <div class="pt-portfolio-filters">
+                <button class="pt-filter-btn active" data-filter="all">Semua</button>
+                <button class="pt-filter-btn" data-filter="home">Rumah</button>
+                <button class="pt-filter-btn" data-filter="commercial">Komersial</button>
+                <button class="pt-filter-btn" data-filter="office">Kantor</button>
+            </div>
+
+            <div class="pt-portfolio-grid">
+                <!-- Item 1 -->
+                <div class="pt-portfolio-item" data-category="home">
+                    <div class="pt-portfolio-img">
+                        <img src="images/projects/ruang-tamu1.jpg" alt="Ruang Tamu Modern" loading="lazy">
+                    </div>
+                    <div class="pt-portfolio-info">
+                        <h3>Ruang Tamu Modern</h3>
+                        <p>Desain minimalis dengan sentuhan kayu alami dan warna-warna netral yang menciptakan suasana hangat dan nyaman.</p>
+                        <div class="pt-project-meta">
+                            <span><i class="fas fa-ruler-combined"></i> 35m²</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Jakarta</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                        <a href="#" class="pt-btn pt-btn-detail">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="pt-portfolio-item" data-category="commercial">
+                    <div class="pt-portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Kamar Tidur Elegan">
+                    </div>
+                    <div class="pt-portfolio-info">
+                        <h3>Kamar Tidur Elegan</h3>
+                        <p>Kamar tidur mewah dengan palet warna hangat dan pencahayaan yang nyaman untuk istirahat optimal.</p>
+                        <div class="pt-project-meta">
+                            <span><i class="fas fa-ruler-combined"></i> 28m²</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Bandung</span>
+                            <span><i class="fas fa-calendar"></i> 2022</span>
+                        </div>
+                        <a href="#" class="pt-btn pt-btn-detail">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="pt-portfolio-item" data-category="home">
+                    <div class="pt-portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Dapur Kontemporer">
+                    </div>
+                    <div class="pt-portfolio-info">
+                        <h3>Dapur Kontemporer</h3>
+                        <p>Dapur fungsional dengan material premium dan tata letak yang efisien untuk pengalaman memasak yang menyenangkan.</p>
+                        <div class="pt-project-meta">
+                            <span><i class="fas fa-ruler-combined"></i> 20m²</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Surabaya</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                        <a href="#" class="pt-btn pt-btn-detail">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Item 4 -->
+                <div class="pt-portfolio-item" data-category="office">
+                    <div class="pt-portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Kantor Minimalis">
+                    </div>
+                    <div class="pt-portfolio-info">
+                        <h3>Kantor Minimalis</h3>
+                        <p>Ruang kerja produktif dengan desain bersih, fasilitas modern, dan area kolaborasi yang inspiratif.</p>
+                        <div class="pt-project-meta">
+                            <span><i class="fas fa-ruler-combined"></i> 80m²</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Tangerang</span>
+                            <span><i class="fas fa-calendar"></i> 2022</span>
+                        </div>
+                        <a href="#" class="pt-btn pt-btn-detail">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Item 5 -->
+                <div class="pt-portfolio-item" data-category="home">
+                    <div class="pt-portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Kamar Mandi Mewah">
+                    </div>
+                    <div class="pt-portfolio-info">
+                        <h3>Kamar Mandi Mewah</h3>
+                        <p>Desain kamar mandi dengan material marmer, fitur modern, dan pencahayaan yang menciptakan suasana spa pribadi.</p>
+                        <div class="pt-project-meta">
+                            <span><i class="fas fa-ruler-combined"></i> 12m²</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Bali</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                        <a href="#" class="pt-btn pt-btn-detail">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Item 6 -->
+                <div class="pt-portfolio-item" data-category="home">
+                    <div class="pt-portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Apartemen Minimalis">
+                    </div>
+                    <div class="pt-portfolio-info">
+                        <h3>Apartemen Minimalis</h3>
+                        <p>Transformasi apartemen kecil menjadi ruang fungsional dengan solusi penyimpanan pintar dan desain ruang ganda.</p>
+                        <div class="pt-project-meta">
+                            <span><i class="fas fa-ruler-combined"></i> 45m²</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Jakarta</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                        <a href="#" class="pt-btn pt-btn-detail">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-couch"></i>
+                        ElegantSpace
+                    </div>
+                    <p>Kami adalah studio desain interior yang berdedikasi untuk menciptakan ruang hidup yang indah, fungsional, dan personal sesuai dengan kebutuhan klien.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#portfolio">Portofolio</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Layanan</h3>
+                    <ul>
+                        <li><a href="#">Desain Perumahan</a></li>
+                        <li><a href="#">Desain Komersial</a></li>
+                        <li><a href="#">Renovasi</a></li>
+                        <li><a href="#">Konsultasi Desain</a></li>
+                        <li><a href="#">Manajemen Proyek</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Berlangganan</h3>
+                    <p>Dapatkan inspirasi desain dan penawaran terbaru langsung ke email Anda.</p>
+                    <form class="footer-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Anda" required>
+                        </div>
+                        <button type="submit" class="btn">Berlangganan</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 ElegantSpace. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+    <script src="js/form-validation.js" defer></script>
+</body>
+</html>
